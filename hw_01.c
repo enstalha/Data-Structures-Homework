@@ -38,7 +38,6 @@ int main(){
 			    search_data(head);
 			    break;
 			case 4:
-				printf("\n========== List ==========\n");
 				print_list(head);
 				break;
 			default:
@@ -78,6 +77,8 @@ node *insert_data(node *head){
 }
 
 void print_list(node *head){
+	printf("\n========== List ==========\n");
+	
 	node *temp = head;
 	while(temp != NULL){
 		printf("%d -> ", temp->data);
@@ -134,3 +135,4 @@ void search_data(node *head){
         printf("%d appears %d time(s) in the list.\n", data, count);
     }
 }
+
