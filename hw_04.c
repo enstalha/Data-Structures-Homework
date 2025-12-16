@@ -1,4 +1,4 @@
-//  HW1: Insertion, Deletion and, Search Operations 
+//  HW3: Insertion, Deletion and, Search Operations in Linked List 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -135,4 +135,5 @@ void search_data(node *head){
         printf("%d appears %d time(s) in the list.\n", data, count);
     }
 }
+
 
